@@ -1,3 +1,7 @@
+secretGenerator:
+- name: mysql-pass
+  literals:
+  - password=${{ secrets.WP_MYSQL_PW }}
 resources:
   - mysql-deployment.yaml
   - wordpress-deployment.yaml
