@@ -36,4 +36,4 @@ jobs:
 
       - name: Deploy Manifests
         run: |
-          kubectl apply -f ./stage_5_wordpress/
+          kubectl apply -k ./stage_5_wordpress/
