@@ -20,8 +20,8 @@ provider "azurerm" {
   features {}
 }
 
-variable "uniquename"{
-  type = string
+variable "uniquename" {
+  type        = string
   description = "Name for the ResourceGroup and AKS Cluster"
 }
 
